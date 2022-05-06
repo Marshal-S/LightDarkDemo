@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		662EAB662823C49700C29344 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 662EAB652823C49700C29344 /* AppDelegate.m */; };
+		662EAB6C2823C49700C29344 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 662EAB6B2823C49700C29344 /* ViewController.m */; };
+		662EAB712823C49B00C29344 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 662EAB702823C49B00C29344 /* Assets.xcassets */; };
+		662EAB742823C49B00C29344 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 662EAB722823C49B00C29344 /* LaunchScreen.storyboard */; };
+		662EAB772823C49B00C29344 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 662EAB762823C49B00C29344 /* main.m */; };
+		662EAB812823C49B00C29344 /* LightDarkDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 662EAB802823C49B00C29344 /* LightDarkDemoTests.m */; };
+		662EAB8B2823C49B00C29344 /* LightDarkDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 662EAB8A2823C49B00C29344 /* LightDarkDemoUITests.m */; };
+		662EAB8D2823C49B00C29344 /* LightDarkDemoUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 662EAB8C2823C49B00C29344 /* LightDarkDemoUITestsLaunchTests.m */; };
+		6687D77F2824F29A00A42D68 /* LightDarkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6687D77E2824F29A00A42D68 /* LightDarkManager.m */; };
+		6687D78228251FC800A42D68 /* LightDarkManagerEx.m in Sources */ = {isa = PBXBuildFile; fileRef = 6687D78128251FC800A42D68 /* LightDarkManagerEx.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		662EAB7D2823C49B00C29344 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 662EAB592823C49700C29344 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 662EAB602823C49700C29344;
+			remoteInfo = LightDarkDemo;
+		};
+		662EAB872823C49B00C29344 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 662EAB592823C49700C29344 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 662EAB602823C49700C29344;
+			remoteInfo = LightDarkDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		662EAB612823C49700C29344 /* LightDarkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LightDarkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		662EAB642823C49700C29344 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		662EAB652823C49700C29344 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		662EAB6A2823C49700C29344 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		662EAB6B2823C49700C29344 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		662EAB702823C49B00C29344 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		662EAB732823C49B00C29344 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		662EAB752823C49B00C29344 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		662EAB762823C49B00C29344 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		662EAB7C2823C49B00C29344 /* LightDarkDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LightDarkDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		662EAB802823C49B00C29344 /* LightDarkDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LightDarkDemoTests.m; sourceTree = "<group>"; };
+		662EAB862823C49B00C29344 /* LightDarkDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LightDarkDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		662EAB8A2823C49B00C29344 /* LightDarkDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LightDarkDemoUITests.m; sourceTree = "<group>"; };
+		662EAB8C2823C49B00C29344 /* LightDarkDemoUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LightDarkDemoUITestsLaunchTests.m; sourceTree = "<group>"; };
+		6687D77D2824F29A00A42D68 /* LightDarkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LightDarkManager.h; sourceTree = "<group>"; };
+		6687D77E2824F29A00A42D68 /* LightDarkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LightDarkManager.m; sourceTree = "<group>"; };
+		6687D78028251FC800A42D68 /* LightDarkManagerEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LightDarkManagerEx.h; sourceTree = "<group>"; };
+		6687D78128251FC800A42D68 /* LightDarkManagerEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LightDarkManagerEx.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		662EAB5E2823C49700C29344 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		662EAB792823C49B00C29344 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		662EAB832823C49B00C29344 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		662EAB582823C49700C29344 = {
+			isa = PBXGroup;
+			children = (
+				662EAB632823C49700C29344 /* LightDarkDemo */,
+				662EAB7F2823C49B00C29344 /* LightDarkDemoTests */,
+				662EAB892823C49B00C29344 /* LightDarkDemoUITests */,
+				662EAB622823C49700C29344 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		662EAB622823C49700C29344 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				662EAB612823C49700C29344 /* LightDarkDemo.app */,
+				662EAB7C2823C49B00C29344 /* LightDarkDemoTests.xctest */,
+				662EAB862823C49B00C29344 /* LightDarkDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		662EAB632823C49700C29344 /* LightDarkDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6687D7762824F0D200A42D68 /* lightDarkManager */,
+				662EAB642823C49700C29344 /* AppDelegate.h */,
+				662EAB652823C49700C29344 /* AppDelegate.m */,
+				662EAB6A2823C49700C29344 /* ViewController.h */,
+				662EAB6B2823C49700C29344 /* ViewController.m */,
+				662EAB702823C49B00C29344 /* Assets.xcassets */,
+				662EAB722823C49B00C29344 /* LaunchScreen.storyboard */,
+				662EAB752823C49B00C29344 /* Info.plist */,
+				662EAB762823C49B00C29344 /* main.m */,
+			);
+			path = LightDarkDemo;
+			sourceTree = "<group>";
+		};
+		662EAB7F2823C49B00C29344 /* LightDarkDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				662EAB802823C49B00C29344 /* LightDarkDemoTests.m */,
+			);
+			path = LightDarkDemoTests;
+			sourceTree = "<group>";
+		};
+		662EAB892823C49B00C29344 /* LightDarkDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				662EAB8A2823C49B00C29344 /* LightDarkDemoUITests.m */,
+				662EAB8C2823C49B00C29344 /* LightDarkDemoUITestsLaunchTests.m */,
+			);
+			path = LightDarkDemoUITests;
+			sourceTree = "<group>";
+		};
+		6687D7762824F0D200A42D68 /* lightDarkManager */ = {
+			isa = PBXGroup;
+			children = (
+				6687D77D2824F29A00A42D68 /* LightDarkManager.h */,
+				6687D77E2824F29A00A42D68 /* LightDarkManager.m */,
+				6687D78028251FC800A42D68 /* LightDarkManagerEx.h */,
+				6687D78128251FC800A42D68 /* LightDarkManagerEx.m */,
+			);
+			path = lightDarkManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		662EAB602823C49700C29344 /* LightDarkDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 662EAB902823C49C00C29344 /* Build configuration list for PBXNativeTarget "LightDarkDemo" */;
+			buildPhases = (
+				662EAB5D2823C49700C29344 /* Sources */,
+				662EAB5E2823C49700C29344 /* Frameworks */,
+				662EAB5F2823C49700C29344 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LightDarkDemo;
+			productName = LightDarkDemo;
+			productReference = 662EAB612823C49700C29344 /* LightDarkDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		662EAB7B2823C49B00C29344 /* LightDarkDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 662EAB932823C49C00C29344 /* Build configuration list for PBXNativeTarget "LightDarkDemoTests" */;
+			buildPhases = (
+				662EAB782823C49B00C29344 /* Sources */,
+				662EAB792823C49B00C29344 /* Frameworks */,
+				662EAB7A2823C49B00C29344 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				662EAB7E2823C49B00C29344 /* PBXTargetDependency */,
+			);
+			name = LightDarkDemoTests;
+			productName = LightDarkDemoTests;
+			productReference = 662EAB7C2823C49B00C29344 /* LightDarkDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		662EAB852823C49B00C29344 /* LightDarkDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 662EAB962823C49C00C29344 /* Build configuration list for PBXNativeTarget "LightDarkDemoUITests" */;
+			buildPhases = (
+				662EAB822823C49B00C29344 /* Sources */,
+				662EAB832823C49B00C29344 /* Frameworks */,
+				662EAB842823C49B00C29344 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				662EAB882823C49B00C29344 /* PBXTargetDependency */,
+			);
+			name = LightDarkDemoUITests;
+			productName = LightDarkDemoUITests;
+			productReference = 662EAB862823C49B00C29344 /* LightDarkDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		662EAB592823C49700C29344 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					662EAB602823C49700C29344 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					662EAB7B2823C49B00C29344 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 662EAB602823C49700C29344;
+					};
+					662EAB852823C49B00C29344 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 662EAB602823C49700C29344;
+					};
+				};
+			};
+			buildConfigurationList = 662EAB5C2823C49700C29344 /* Build configuration list for PBXProject "LightDarkDemo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 662EAB582823C49700C29344;
+			productRefGroup = 662EAB622823C49700C29344 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				662EAB602823C49700C29344 /* LightDarkDemo */,
+				662EAB7B2823C49B00C29344 /* LightDarkDemoTests */,
+				662EAB852823C49B00C29344 /* LightDarkDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		662EAB5F2823C49700C29344 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				662EAB742823C49B00C29344 /* LaunchScreen.storyboard in Resources */,
+				662EAB712823C49B00C29344 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		662EAB7A2823C49B00C29344 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		662EAB842823C49B00C29344 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		662EAB5D2823C49700C29344 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6687D77F2824F29A00A42D68 /* LightDarkManager.m in Sources */,
+				662EAB6C2823C49700C29344 /* ViewController.m in Sources */,
+				662EAB662823C49700C29344 /* AppDelegate.m in Sources */,
+				6687D78228251FC800A42D68 /* LightDarkManagerEx.m in Sources */,
+				662EAB772823C49B00C29344 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		662EAB782823C49B00C29344 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				662EAB812823C49B00C29344 /* LightDarkDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		662EAB822823C49B00C29344 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				662EAB8D2823C49B00C29344 /* LightDarkDemoUITestsLaunchTests.m in Sources */,
+				662EAB8B2823C49B00C29344 /* LightDarkDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		662EAB7E2823C49B00C29344 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 662EAB602823C49700C29344 /* LightDarkDemo */;
+			targetProxy = 662EAB7D2823C49B00C29344 /* PBXContainerItemProxy */;
+		};
+		662EAB882823C49B00C29344 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 662EAB602823C49700C29344 /* LightDarkDemo */;
+			targetProxy = 662EAB872823C49B00C29344 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		662EAB722823C49B00C29344 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				662EAB732823C49B00C29344 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		662EAB8E2823C49C00C29344 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		662EAB8F2823C49C00C29344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		662EAB912823C49C00C29344 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8QA9SSD6H9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LightDarkDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Marshal.LightDarkDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		662EAB922823C49C00C29344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8QA9SSD6H9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LightDarkDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Marshal.LightDarkDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		662EAB942823C49C00C29344 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Marshal.LightDarkDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LightDarkDemo.app/LightDarkDemo";
+			};
+			name = Debug;
+		};
+		662EAB952823C49C00C29344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Marshal.LightDarkDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LightDarkDemo.app/LightDarkDemo";
+			};
+			name = Release;
+		};
+		662EAB972823C49C00C29344 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Marshal.LightDarkDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LightDarkDemo;
+			};
+			name = Debug;
+		};
+		662EAB982823C49C00C29344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Marshal.LightDarkDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LightDarkDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		662EAB5C2823C49700C29344 /* Build configuration list for PBXProject "LightDarkDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				662EAB8E2823C49C00C29344 /* Debug */,
+				662EAB8F2823C49C00C29344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		662EAB902823C49C00C29344 /* Build configuration list for PBXNativeTarget "LightDarkDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				662EAB912823C49C00C29344 /* Debug */,
+				662EAB922823C49C00C29344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		662EAB932823C49C00C29344 /* Build configuration list for PBXNativeTarget "LightDarkDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				662EAB942823C49C00C29344 /* Debug */,
+				662EAB952823C49C00C29344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		662EAB962823C49C00C29344 /* Build configuration list for PBXNativeTarget "LightDarkDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				662EAB972823C49C00C29344 /* Debug */,
+				662EAB982823C49C00C29344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 662EAB592823C49700C29344 /* Project object */;
+}
