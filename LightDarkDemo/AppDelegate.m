@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "lightDarkManager/LightDarkManager.h"
 #import "lightDarkManager/LightDarkManagerEx.h"
+#import "lightDarkManager/LightDarkManagerRepair.h"
 
 @interface AppDelegate ()
 
@@ -29,6 +30,8 @@
     }else {
         [LightDarkManagerEx register];
     }
+    
+//    [LightDarkManagerRepair registerByWindow:self.window];
     
     self.window.rootViewController = [[ViewController alloc] init];
     

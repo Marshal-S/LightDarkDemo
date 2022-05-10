@@ -17,6 +17,7 @@
 		662EAB8D2823C49B00C29344 /* LightDarkDemoUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 662EAB8C2823C49B00C29344 /* LightDarkDemoUITestsLaunchTests.m */; };
 		6687D77F2824F29A00A42D68 /* LightDarkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6687D77E2824F29A00A42D68 /* LightDarkManager.m */; };
 		6687D78228251FC800A42D68 /* LightDarkManagerEx.m in Sources */ = {isa = PBXBuildFile; fileRef = 6687D78128251FC800A42D68 /* LightDarkManagerEx.m */; };
+		66F24000282A3C56009E9CFA /* LightDarkManagerRepair.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F23FFF282A3C56009E9CFA /* LightDarkManagerRepair.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		6687D77E2824F29A00A42D68 /* LightDarkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LightDarkManager.m; sourceTree = "<group>"; };
 		6687D78028251FC800A42D68 /* LightDarkManagerEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LightDarkManagerEx.h; sourceTree = "<group>"; };
 		6687D78128251FC800A42D68 /* LightDarkManagerEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LightDarkManagerEx.m; sourceTree = "<group>"; };
+		66F23FFE282A3C56009E9CFA /* LightDarkManagerRepair.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LightDarkManagerRepair.h; sourceTree = "<group>"; };
+		66F23FFF282A3C56009E9CFA /* LightDarkManagerRepair.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LightDarkManagerRepair.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +145,8 @@
 				6687D77E2824F29A00A42D68 /* LightDarkManager.m */,
 				6687D78028251FC800A42D68 /* LightDarkManagerEx.h */,
 				6687D78128251FC800A42D68 /* LightDarkManagerEx.m */,
+				66F23FFE282A3C56009E9CFA /* LightDarkManagerRepair.h */,
+				66F23FFF282A3C56009E9CFA /* LightDarkManagerRepair.m */,
 			);
 			path = lightDarkManager;
 			sourceTree = "<group>";
@@ -278,6 +283,7 @@
 				6687D77F2824F29A00A42D68 /* LightDarkManager.m in Sources */,
 				662EAB6C2823C49700C29344 /* ViewController.m in Sources */,
 				662EAB662823C49700C29344 /* AppDelegate.m in Sources */,
+				66F24000282A3C56009E9CFA /* LightDarkManagerRepair.m in Sources */,
 				6687D78228251FC800A42D68 /* LightDarkManagerEx.m in Sources */,
 				662EAB772823C49B00C29344 /* main.m in Sources */,
 			);
